@@ -1,0 +1,59 @@
+2024-05-31 18:54:28.760 [info] Nivel de registro: Info
+2024-05-31 18:54:28.760 [info] La validación encontró GIT en: “git“
+2024-05-31 18:54:28.760 [info] Usando GIT “2.34.1” desde “git”
+2024-05-31 18:54:28.760 [info] > git rev-parse --show-toplevel [68ms]
+2024-05-31 18:54:28.760 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-31 18:54:28.760 [info] > git rev-parse --show-toplevel [163ms]
+2024-05-31 18:54:28.760 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-31 18:54:28.794 [info] > git rev-parse --show-toplevel [161ms]
+2024-05-31 18:54:28.803 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-31 18:54:28.933 [info] > git rev-parse --show-toplevel [110ms]
+2024-05-31 18:54:28.933 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-31 18:54:28.958 [info] > git rev-parse --show-toplevel [15ms]
+2024-05-31 18:54:28.958 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-31 18:54:28.999 [info] > git rev-parse --show-toplevel [19ms]
+2024-05-31 18:54:28.999 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-31 18:54:29.013 [info] > git rev-parse --show-toplevel [2ms]
+2024-05-31 18:54:29.013 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-31 18:54:29.036 [info] > git rev-parse --show-toplevel [8ms]
+2024-05-31 18:54:29.036 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-31 18:54:29.048 [info] > git rev-parse --show-toplevel [4ms]
+2024-05-31 18:54:29.048 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-31 18:55:01.198 [info] > git rev-parse --show-toplevel [1ms]
+2024-05-31 18:55:01.213 [info] > git rev-parse --git-dir --git-common-dir [5ms]
+2024-05-31 18:55:01.249 [info] Open repository: /home/adrian
+2024-05-31 18:55:01.278 [info] > git config --get commit.template [9ms]
+2024-05-31 18:55:01.305 [info] No remotes found in the git config file.
+2024-05-31 18:55:01.306 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-05-31 18:55:01.307 [warning] No such branch: master.
+2024-05-31 18:55:01.432 [info] > git status -z -uall [102ms]
+2024-05-31 18:55:04.387 [info] > git config --get commit.template [44ms]
+2024-05-31 18:55:04.409 [info] No remotes found in the git config file.
+2024-05-31 18:55:04.417 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [9ms]
+2024-05-31 18:55:04.417 [warning] No such branch: master.
+2024-05-31 18:55:04.649 [info] > git status -z -uall [207ms]
+2024-05-31 18:55:07.404 [info] > git check-ignore -v -z --stdin [2405ms]
+2024-05-31 18:55:07.405 [info] > git show --textconv :web.html [27ms]
+2024-05-31 18:55:07.405 [info] > git ls-files --stage -- /home/adrian/web.html [11ms]
+2024-05-31 19:09:34.095 [info] > git check-ignore -v -z --stdin [1ms]
+2024-05-31 19:32:03.977 [info] > git config --get commit.template [2ms]
+2024-05-31 19:32:03.999 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-05-31 19:32:04.028 [info] > git ls-files --stage -- /home/adrian/web.html [6ms]
+2024-05-31 19:32:04.042 [info] > git cat-file -s c8f303833369679cd68a1d0436c0e73f2bc25daa [2ms]
+2024-05-31 19:32:04.075 [info] > git show --textconv :web.html [17ms]
+2024-05-31 19:32:04.089 [info] > git status -z -uall [78ms]
+2024-05-31 19:32:09.286 [info] > git config --get commit.template [3ms]
+2024-05-31 19:32:09.299 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-05-31 19:32:09.340 [info] > git status -z -uall [32ms]
+2024-05-31 19:32:14.461 [info] > git config --get commit.template [9ms]
+2024-05-31 19:32:14.476 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-05-31 19:32:14.545 [info] > git status -z -uall [51ms]
+2024-05-31 19:34:24.942 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-31 19:34:24.942 [info] > git config --get commit.template [23ms]
+2024-05-31 19:34:25.031 [info] > git ls-files --stage -- /home/adrian/web.html [4ms]
+2024-05-31 19:34:25.049 [info] > git cat-file -s f64d37ae1cae0edf5aa57fc9909532e1f91810ee [2ms]
+2024-05-31 19:34:25.096 [info] > git status -z -uall [129ms]
+2024-05-31 19:34:26.395 [info] > git show --textconv :web.html [1299ms]
+2024-05-31 19:34:30.278 [info] > git config --get commit.template [16ms]
+2024-05-31 19:34:30.279 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-05-31 19:34:30.338 [info] > git status -z -uall [49ms]
